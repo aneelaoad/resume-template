@@ -1,0 +1,330 @@
+/* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.job, .education-item {
+    margin-bottom: 20px;
+}
+
+.job h3, .education-item h3 {
+    margin: 5px 0;
+    font-size: 1.5em;
+}
+
+.job p, .education-item p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+  
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 5px ;
+    /* margin: 10px; */
+    background-color: #fff;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+section h2 {
+    padding-bottom: 10px;
+}
+
+.job, .education-item, .project {
+    margin-bottom: 20px;
+}
+
+.job h3, .education-item h3, .project h3 {
+    margin: 5px 0;
+   
+}
+
+.job p, .education-item p, .project p {
+    margin: 5px 0;
+   
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+/* Other CSS rules */
+
+#tools-technologies ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+#tools-technologies li {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+#professional-experience ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* list-style-type: none; */
+    padding-left: 20px;
+}
+
+#professional-experience li {
+    width: 49%;
+    box-sizing: border-box;
+    padding: 0 10px ;
+}
+#professional-experience li:nth-child(even) {
+    /* margin-left: px; */
+    float: right;
+}
+
+/* Other CSS rules */
+
+header h1 {
+    text-align: center;
+   
+    margin-bottom: 0;
+}
+
+header p {
+    text-align: center;
+   
+    margin-top: 5px;
+    color: #555;
+}
+
+section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+section h2::before,
+section h2::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #6e6d6d;
+    border-bottom: 1px solid #8e44ad;
+    margin: 0 10px;
+    height: 1px;
+    width: 50%;
+}
+h3{
+    font-weight: 520;
+
+}
+
+#personal-details{
+    border-top: 8px solid #8e44ad;
+}
+
+#personal-details p {
+    text-align: center;
+    padding: 0 10px;
+    margin-top: -10px;
+}
+
+#tools-technologies ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+#certifications ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+#education ul{
+    display: flex;
+    flex-wrap: wrap; 
+}
+#education ul div{
+    width: 50%;
+    box-sizing: border-box;
+}
+#tools-technologies li {
+    width: 50%;
+    box-sizing: border-box;
+    /* padding: 5px 0; */
+   
+}
+img{
+    width: 2.5rem;
+    margin-right: 20px;
+}
+#certifications li{
+    width: 100% ;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#personal-details {
+    /* background: #f5f7f8; */
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* max-width: 600px; */
+    /* text-align: center; */
+    
+}
+
+#personal-details h1 {
+   
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+#personal-details p{
+    margin: 5px 0;
+    color: #555;
+   text-align: left;
+
+}
+#summary p{
+    padding: 0 10px;
+    line-height: 1.4;
+}
+p{
+    line-height: 1.4;
+
+
+}
+#personal-details h2 {
+   
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
+    color: #34495e;
+}
+
+#personal-details a {
+    color: #8e44ad;
+    text-decoration: none;
+}
+h2{
+    /* color: #30336b; */
+
+}
+#personal-details a:hover {
+    text-decoration: underline;
+}
+.title{
+   font-size: 1.5rem;
+
+}
+.job-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    align-items: center;
+}
+.job-date {
+    color: #555;
+    font-size: 0.9em;
+}
+#personal-details .name{
+   font-size: 1.7rem !important;
+   /* color: #30336b; */
+    /* font-weight: 700; */
+    text-transform: uppercase;
+   color: #8e44ad;
+
+}
+span, p, li{
+    font-size: .8rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+h2{
+    font-size: 1.2rem;
+    margin: 0 !important;
+    color: #8e44ad;
+    font-weight: 400;
+}
+section{
+    padding: 0 20px;
+}
