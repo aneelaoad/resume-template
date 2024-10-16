@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50; /* Changed text color to #2c3e50 */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+section h2 {
+    padding-bottom: 5px;
+    color: #2c3e50; /* Changed section heading color */
+}
+
+.job, .education-item, .project {
+    margin-bottom: 5px;
+}
+
+.job h3, .education-item h3, .project h3 {
+    margin: 5px 0;
+    color: #2c3e50; /* Changed job title color */
+}
+
+.job p, .education-item p, .project p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+#tools-technologies ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+#tools-technologies li {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 2px;
+}
+
+#professional-experience ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+#professional-experience li {
+    width: 49%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header p {
+    text-align: center;
+    margin-top: 5px;
+    color: #555;
+}
+
+section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+section h2::before,
+section h2::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #6e6d6d;
+    border-bottom: 1px solid #2980b9;
+    margin: 0 10px;
+    height: 1px;
+    width: 50%;
+}
+
+h3 {
+    font-weight: 520;
+    color: #2980b9; /* Changed h3 color */
+}
+
+#personal-details {
+    border-top: 8px solid #2980b9;
+}
+
+#personal-details p {
+    text-align: center;
+    padding: 0 10px;
+    margin-top: -10px;
+}
+
+#tools-technologies ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+#certifications ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#education ul {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#education ul div {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 2.5rem;
+    margin-right: 20px;
+}
+
+#certifications li {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#personal-details {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#personal-details h1 {
+    margin-bottom: 10px;
+    color: #2c3e50; /* Changed name color */
+}
+
+#personal-details p {
+    margin: 5px 0;
+    color: #555;
+    text-align: left;
+}
+
+#summary p {
+    padding: 0 10px;
+    line-height: 1.4;
+}
+
+p {
+    line-height: 1.4;
+}
+
+#personal-details h2 {
+    color: #34495e; /* Keep as is, can change if needed */
+}
+
+#personal-details a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+#personal-details a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    align-items: center;
+}
+
+.job-date {
+    color: #555;
+    font-size: 0.9em;
+}
+
+#personal-details .name {
+    font-size: 1.7rem !important;
+    text-transform: uppercase;
+    color: #2980b9; /* Keep as is, can change if needed */
+}
+
+span, p, li {
+    font-size: .8rem;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #2980b9 !important;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 0 !important;
+    color: #2980b9; /* Keep as is, can change if needed */
+    font-weight: 400;
+}
+
+section {
+    padding: 0 20px;
+}
